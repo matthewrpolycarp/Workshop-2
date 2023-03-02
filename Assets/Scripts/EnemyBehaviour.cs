@@ -6,7 +6,6 @@ public class EnemyBehaviour : MonoBehaviour
 {
     public Vector3[] patrolPoints;
     public float chaseRange;
-    public GameObject projectile;
 
     private int currentPatrolIndex;
     private Transform player;

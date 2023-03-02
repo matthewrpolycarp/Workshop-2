@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public Transform[] patrolPoints;
+    public Vector3[] patrolPoints;
     public float chaseRange;
     public GameObject projectile;
 
@@ -48,9 +48,9 @@ public class EnemyBehaviour : MonoBehaviour
 
     void Patrol()
     {
-        transform.position = Vector3.MoveTowards(transform.position, patrolPoints[currentPatrolIndex].position, Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, patrolPoints[currentPatrolIndex], Time.deltaTime);
 
-        if (Vector3.Distance(transform.position, patrolPoints[currentPatrolIndex].position) < 1f)
+        if (Vector3.Distance(transform.position, patrolPoints[currentPatrolIndex]) < 1f)
         {
             currentPatrolIndex++;
 

@@ -534,6 +534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 982654786960870476, guid: b72256bda1043c34599ca585d5725dbe, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 982654786960870477, guid: b72256bda1043c34599ca585d5725dbe, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -544,7 +548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 982654786960870477, guid: b72256bda1043c34599ca585d5725dbe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.66
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 982654786960870477, guid: b72256bda1043c34599ca585d5725dbe, type: 3}
       propertyPath: m_LocalPosition.z
